@@ -16,7 +16,9 @@ li{
 ul{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 64px;
+    padding-left: 110px;
 }
 
 body{
@@ -111,9 +113,9 @@ h1{
     font-size: 18px;
     font-weight: 600;
     padding: 16px 32px;
-    min-width: 239px;
+    /*min-width: 239px;*/
     border: 0;
-    outline: none;
+    outline: 0;
     cursor: pointer;
 }
 
