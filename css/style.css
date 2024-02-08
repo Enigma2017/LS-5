@@ -67,6 +67,15 @@ body{
     font-size: 14px;
 }
 
+.header-nav__link:hover{
+    color: #fc48f4;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+}
+
 .header-btn__link{
     padding: 16px 24px;
     background: linear-gradient(93.22deg, #E1E1E1 8.37%, #FFFFFF 99.95%);
@@ -134,6 +143,17 @@ h1{
     outline: 0;
     cursor: pointer;
 }
+
+.btn-learn:hover{
+    color: #f8f2f2;
+    background-color: #fc48f4;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+}
+
 
 #headerIcon{
     display: none;
